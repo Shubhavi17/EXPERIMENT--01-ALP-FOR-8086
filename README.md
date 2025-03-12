@@ -1,7 +1,7 @@
 # EXPERIMENT--01-ALP-FOR-8086
-Name :
-Roll no 
-Date of experiment :
+Name : SHUBHAVI M
+Roll no: 212223040199
+Date of experiment : 11.03.2025
 
 
 
@@ -78,25 +78,101 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 ## Programs for arithmetic  operations
 
 ## Addition  of 8 bit ALP 
-
-
-
+```
+org 100h
+MOV AX,5123H
+MOV BX,1142H
+ADD AX,BX
+ret
+```
 ## Output  
+![Screenshot 2025-03-12 190010](https://github.com/user-attachments/assets/7c5af691-69ff-458d-a05a-1c8c1ed51551)
+
  
 ## Subtraction   of 8 bit numbers  ALP 
+```
+org 100h
+MOV AX,[5000h]
+MOV BX,[5002h]
+SUB AX,BX
+ret
+```
  
-## Output  
-## Multiplication alp 
+## Output 
+![Screenshot 2025-03-12 205707](https://github.com/user-attachments/assets/6ad2dd84-e2cb-4af6-b4aa-d30ee2067f35)
+
+## Multiplication of 8 bit numbers ALP
+```
+org 100h
+MOV BX,1200h
+MOV AX,BX
+MOV CX,120h
+MUL CX
+ret
+```
+
  ## Output  
+ ![Screenshot 2025-03-12 205850](https://github.com/user-attachments/assets/66294e21-f663-458b-b934-d980928d62d5)
 
-
-## Division alp 
+## Division of 8 bit numbers ALP
+```
+org 100h
+MOV AX, 0009H   
+MOV BL, 02H     
+DIV BL    
+ret
+```
 
 ## Output  
+![Screenshot 2025-03-12 210013](https://github.com/user-attachments/assets/6569f255-4d63-46ea-a766-5d3a0a72f6bd)
 
+
+## And of 8 bit numbers ALP
+```
+MOV AL,33H
+MOV BL,44H
+AND AL,BL
+HLT
+```
+
+## Output
+![Screenshot 2025-03-12 210139](https://github.com/user-attachments/assets/3e79606b-3f1a-4df0-aa26-f1ba297ffd84)
+
+
+## OR of 8 bit numbers ALP
+```
+MOV AL,45H
+MOV BL,66H
+OR AL,BL
+HLT
+```
+
+## Output
+![Screenshot 2025-03-12 210256](https://github.com/user-attachments/assets/884e1290-2880-46a6-9656-a71508765f07)
+
+## NOT of 8 bit number ALP
+```
+MOV AL,65H
+NOT AL
+HLT
+```
+
+## Output
+![Screenshot 2025-03-12 210408](https://github.com/user-attachments/assets/f992a43a-6850-46da-aedb-28a36c33d467)
+
+## XOR of 8 bit number ALP
+```
+MOV AL,66H
+MOV BL,77H
+XOR AL,BL
+HLT
+```
+
+## Output
+![Screenshot 2025-03-12 210511](https://github.com/user-attachments/assets/1e44a56e-444d-4794-8b9c-c450cc9fe509)
 
 ## Result :
- 
+ The execution of ALP on fundamental arithmetic and logical operations is successfully completed.
 
 
 
